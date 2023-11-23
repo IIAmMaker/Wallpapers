@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '0.6-1.19.2'
+version = '0.7a-1.19.2'
 group = 'net.im_maker.wallpapers' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'wallpapers'
 
