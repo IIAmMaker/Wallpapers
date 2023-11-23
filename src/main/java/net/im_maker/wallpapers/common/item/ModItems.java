@@ -47,6 +47,8 @@ public class ModItems {
             () -> new LightGrayWallpaperRollItem(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
     public static final RegistryObject<Item> WHITE_WALLPAPER_ROLL = ITEMS.register("white_wallpaper_roll",
             () -> new WhiteWallpaperRollItem(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    public static final RegistryObject<Item> PRIMARY_WALLPAPER_ROLL = ITEMS.register("primary_wallpaper_roll",
+            () -> new WhiteWallpaperRollItem(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
     //Baseborde Items
     public static final RegistryObject<Item> DRIPSTONE_BASEBOARD = ITEMS.register("dripstone_baseboard",
             () -> new DripstoneBasebordeItem(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));

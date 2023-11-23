@@ -54,6 +54,8 @@ public class ModBlocks {
             () -> new WallpaperBlock (BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.COLOR_LIGHT_GRAY).strength(2.0F, 3.0F).sound(ModSounds.WALLPAPER_BLOCK)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> WHITE_WALLPAPER_BLOCK = registryBlock("white_wallpaper_block",
             () -> new WallpaperBlock (BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.SNOW).strength(2.0F, 3.0F).sound(ModSounds.WALLPAPER_BLOCK)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> PRIMARY_WALLPAPER_BLOCK = registryBlock("primary_wallpaper_block",
+            () -> new WallpaperBlock (BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.SNOW).strength(2.0F, 3.0F).sound(ModSounds.WALLPAPER_BLOCK)), CreativeModeTab.TAB_BUILDING_BLOCKS);
 
     private static <T extends Block> RegistryObject<T> registryBlock(String name, Supplier<T> block, CreativeModeTab tab ) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

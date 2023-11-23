@@ -255,6 +255,21 @@
           }
         }
       }
+    },
+    "primary": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "wallpapers:primary_wallpaper_roll"
+          ]
+        },
+        "location": {
+          "block": {
+            "tag": "minecraft:planks"
+          }
+        }
+      }
     }
   },
   "requirements": [
@@ -305,6 +320,9 @@
     ],
     [
       "white"
+    ],
+    [
+      "primary"
     ]
   ],
   "rewards": {
